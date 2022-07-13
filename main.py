@@ -5,7 +5,6 @@ Letters = ["A", "B", "C", "D", "E", "F"]
 for x in range(4):
 	Code.append(random.choice(Letters))
 
-print(Code)
 userinput = list(input("Guess the code!: "))
 
 while Code != userinput:
